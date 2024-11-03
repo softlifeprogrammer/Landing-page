@@ -9,8 +9,6 @@ A simple and responsive landing page built with HTML and CSS. This project demon
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
