@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 
 /* Header Section */
 .header {
-    background-color: #1a2b49;
+    background-color: #1f2937;
     color: white;
     padding: 20px;
     text-align: center;
@@ -46,42 +46,60 @@ body {
 }
 
 .logo {
-    font-weight: bold;
+    font-weight: 24px;
+    color: #f9faf8;
 }
 
-.hero-content {
-    text-align: left;
-    max-width: 600px;
+/* Container for hero content and image */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
+/* Styling for .hero-content */
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .hero-content p {
-    font-size: 1rem;
-    color: #888;
-    margin: 10px 0 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.hero-content .btn {
-    background-color: #007bff;
-    color: white;
+.hero-content button {
+    background-color: white;
+    color: #007bff;
+    border: 2px blue solid;
     padding: 10px 20px;
-    border: none;
+    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
+.hero-content .btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Styling for .hero-image */
 .hero-image {
-    margin-top: 20px;
-    background-color: #ccc;
-    color: #333;
-    width: 100%;
+    width: 650px;
     height: 200px;
+    background-color: #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #1F2937;
+    font-size: 18px;
 }
+
 
 /* Information Section */
 .info-section {
@@ -112,14 +130,21 @@ body {
     text-align: center;
     color: #888;
     padding: 10px;
+    border-radius: 10px;
 }
 
 /* Testimonial Section */
 .testimonial {
     padding: 40px 20px;
-    background-color: #e9ecef;
+    background-color: #E5E7EB;
     text-align: center;
     font-style: italic;
+}
+
+.testimonial .quote {
+    color: #1f2937;
+    font-style: light italic;
+    padding: 36px;
 }
 
 .testimonial .author {
@@ -131,7 +156,7 @@ body {
 /* Call to Action Section */
 .cta {
     padding: 40px 20px;
-    background-color: #007bff;
+    background-color: #3882f6;
     color: white;
     text-align: center;
 }
@@ -140,7 +165,8 @@ body {
     background-color: white;
     color: #007bff;
     padding: 10px 20px;
-    border: none;
+    border: 2px blue solid;
+    border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
 }
@@ -148,4 +174,11 @@ body {
 .cta .btn:hover {
     background-color: #0056b3;
     color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
