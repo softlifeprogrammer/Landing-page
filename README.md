@@ -1,0 +1,1 @@
+This a landing page developed by softlifeprogrammer @ odinproject.
